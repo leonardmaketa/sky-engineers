@@ -309,6 +309,7 @@ section + section{border-top:1px solid var(--line)}
 .director{background:var(--surface);border:1px solid var(--line);padding:26px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px;align-items:start}
 .director .mono{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:22px;color:#0A3D6E;
   background:radial-gradient(circle,#FFFFFF 58%,transparent 59%),conic-gradient(from 210deg,#F4F6F8,#A9B2BC,#FFFFFF,#8E98A3,#E8ECF0,#F4F6F8)}
+.director .dphoto{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:center 30%;border:3px solid #fff;box-shadow:0 0 0 1px var(--line)}
 .director .dbody{display:grid;gap:10px}
 .director h3{font-size:22px;font-weight:700}
 .director .titles{font-size:14.5px;color:var(--blue);font-weight:500}
@@ -761,7 +762,7 @@ dialog.lb button{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);ri
         <p class="eyebrow">Board of Directors</p>
         <div class="board-grid">
           <article class="director">
-            <span class="mono" aria-hidden="true">BM</span>
+            <img class="dphoto" src="img/babele.webp" alt="Portrait of Eng. Babele Peter Magige" width="96" height="96" loading="lazy">
             <div class="dbody">
               <h3>Eng. Babele Peter Magige</h3>
               <p class="titles">Director · Civil &amp; Highway Engineer</p>
@@ -770,7 +771,7 @@ dialog.lb button{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);ri
             </div>
           </article>
           <article class="director">
-            <span class="mono" aria-hidden="true">JK</span>
+            <img class="dphoto" src="img/julius.webp" alt="Portrait of Eng. Julius Evagry Keiya" width="96" height="96" loading="lazy">
             <div class="dbody">
               <h3>Eng. Julius Evagry Keiya</h3>
               <p class="titles">Director · GIS Expert &amp; CAD Engineer</p>
